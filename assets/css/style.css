@@ -1,0 +1,198 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	background-color: rgb(150, 157, 163);
+	background-image: url('../../assets/img/img.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+	height: 80px;
+	background-color: rgb(240, 246, 247, 0.8);
+}
+
+nav h2{
+	line-height: 80px;
+	display: inline-block;	
+	margin-left: 40px;
+	color: rgb(52, 58, 64);
+}
+
+nav img{
+	height: 50px;
+	line-height: 80px;
+	display: inline-block;	
+	margin-left: 40px;
+	margin-top: 10px;
+}
+
+nav ul{
+	float: right;
+	margin-right: 40px;
+	list-style: none;
+}
+
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 10px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	font-weight: lighter;
+	color: rgb(52, 58, 64);
+}
+
+nav ul li a:hover{
+	color: rgb(49, 112, 175);
+}
+
+.nav-donate{
+	border: 1px solid #37343410;
+	border-radius: 15px;
+	padding: 5px 20px;
+	background: #37343410;
+}
+
+nav label #btn,
+nav label #close{
+	color: rgb(52, 58, 64);
+	font-size: 30px;
+	float: right;
+	margin-right: 40px;
+	line-height: 80px;
+	cursor: pointer;
+	display: none;
+}
+
+nav #check{
+	display: none;
+}
+
+
+footer{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #111;
+	height: auto;
+	width: 100vw;
+	font-family: "Open Sans";
+	padding-top: 40px;
+	color: #fff;
+}
+
+.footer-content{
+	display: flex;
+	align-items: center;
+	justify-content: safe center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.footer-content h3{
+	font-size: 1.8rem;
+	font-weight: 400;
+	text-transform: capitalize;
+	line-height: 3rem;
+}
+
+.footer-content p{
+	max-width: 500px;
+	margin: 10px auto;
+	line-height: 28px;
+	font-size: 14px;
+}
+
+.socials{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+	margin: 0 10px;
+}
+
+.socials a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.socials a i{
+	font-size: 1.1rem;
+	transition: color 0.4s ease;
+}
+
+.socials a:hover i{
+	color: aqua;
+}
+
+.footer-bottom{
+	background: #000;
+	width: 100vw;
+	padding: 20px 0;
+	text-align: center;
+}
+
+.footer-bottom p{
+	/*margin: 0 10px;*/
+	font-size: 14px;
+	word-spacing: 2px;
+	text-transform: capitalize;
+}
+
+.footer-bottom span{
+	text-transform: uppercase;
+	opacity: 0.4;
+	font-weight: 200;
+}
+
+
+
+/*UNTUK PENGATURAN RESPONSIVE*/
+@media (max-width:  992px){
+	nav label #btn{
+		display: block;
+	}
+
+	nav ul{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		margin-right: 0;
+		right: -100%;
+		top: 80px;
+		background-color: rgb(240, 246, 247, 0.8);
+		text-align: center;
+		transition: 0.5s;
+	}
+
+	nav ul li{
+		display: block;
+		line-height: 10px;
+		margin: 50px 0;
+	}
+
+	nav #check:checked ~ ul{
+		right: 0;
+	}
+
+	nav #check:checked ~ label #btn{
+		display: none;
+	}
+
+	nav #check:checked ~ label #close{
+		display: block;
+	}
+}
