@@ -339,7 +339,7 @@ section.quote .layar-dalam p{
 }
 
 .berita .area .text article a:hover{
-	color: #ccc;
+	color: #007c31;
 }
 
 footer{
@@ -483,7 +483,7 @@ a{
 .buy-btn:hover{
 	color: #ffffff;
 	background-color: #007c31;
-	transition: all ease 0.3s;s
+	transition: all ease 0.3s;
 }
 
 .overlay{
@@ -552,6 +552,7 @@ a{
 		height: 200px;
 	}
 
+
 	.dukungan{
 		display: block;
 	}
@@ -560,5 +561,38 @@ a{
 		width: 100%;
 		padding-bottom: 30px;
 	}
+
+	.tim{
+		display: block;
+	}
+
+	.tim div{
+		width: 100%;
+		padding-bottom: 30px;
+	}
+
+	.berita{
+		display: block;
+	}
+
+	.berita div.area{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+
+	footer .layar-dalam{
+		display: block;
+	}
+
+	footer .layar-dalam div{
+		width: 100%;
+	}
+
+	footer .layar-dalam div h5{
+		margin-top: 30px;
+		margin-bottom: 10px;
+	}
+
 
 }
