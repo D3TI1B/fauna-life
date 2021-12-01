@@ -464,3 +464,16 @@ footer .layar-dalam .copyright span a:hover{
 .ot{
 	color: #fff;
 }
+.Donasi-cen {
+	background-image: url("/assets/image/explore/burung-cenderawasih.jpg");
+	background-size: cover;
+	height: 450px;	
+}
+
+.Donasi-cen .cenderawasih {
+	text-align: center;
+	padding-top: 140px;
+}
+.cenderawasih{
+	color: #fff;
+}
