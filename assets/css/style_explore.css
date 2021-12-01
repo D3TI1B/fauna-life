@@ -258,7 +258,7 @@ section#gallery div{
 }
 
 section#gallery div img{
-	height: 100px;
+	height: 1800px;
 	border-radius: 5px;
 }
 
@@ -433,4 +433,21 @@ footer .layar-dalam .copyright span a:hover{
 		padding-bottom: 30px;
 	}
 
+}
+.foto-donasi{
+	width: 100%;
+}
+
+.Donasi {
+	background-image: url("../image/explore/_111187936_gettyimages-1172550529-1.jpg");
+	background-size: cover;
+	height: 450px;	
+}
+
+.Donasi .harimau {
+	text-align: center;
+	padding-top: 140px;
+}
+.harimau{
+	color: #fff;
 }
