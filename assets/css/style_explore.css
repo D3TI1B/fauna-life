@@ -35,10 +35,6 @@ nav{
 	transition: background-color 0.5s ease;
 }
 
-nav.putih{
-	background-color: #fff;
-}
-
 nav .logo{
 	float: left;
 	position: relative;
@@ -115,16 +111,6 @@ header .intro h3{
 }
 
 .tombol{
-/*	background-color: #007c31;
-	height: 40px;
-	line-height: 42px;
-	color: #fff;
-	text-decoration: none;
-	display: inline-block;
-	padding: 0px 20px;
-	font-size: 15px;
-	border-radius: 4px;*/
-
 	display: inline-block;
 	padding: 10px 35px;
 	font-size: 24px;
@@ -181,9 +167,7 @@ section h3::after{
 	margin: 20px auto;
 }
 
-#tentang, 
-#team,
-#berita{
+#tentang{
 	text-align: center;
 }
 
@@ -215,118 +199,6 @@ nav .logo img.hitam{
 
 section.abuabu{
 	background-color: #f5f6f6;
-}
-
-.dukungan,
-.tim,
-.berita{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-}
-
-.dukungan h6,
-.tim h6{
-	margin: 0px;
-	margin-top: 20px;
-	padding: 0px;
-	font-size: 18px;
-	font-weight: bold;
-}
-
-.dukungan img{
-	width: 50px;
-}
-
-.dukungan div,
-.tim div{
-	text-align: center;
-	width: 26%;
-}
-
-section#gallery{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	overflow: hidden;
-	padding: 10px 0px;
-}
-
-section#gallery div{
-	padding: 10px;
-}
-
-section#gallery div img{
-	height: 1800px;
-	border-radius: 5px;
-}
-
-section#gallery div img:hover{
-	transition: all 0.2s ease-in-out;
-	transform: scale(1.1);
-}
-
-section.quote{
-	background: url('../../assets/image/background-bromo.jpg') no-repeat;
-	background-attachment: fixed;
-	background-position: center;
-	background-size: cover;
-	text-align: center;
-	color: #fff;
-	font-size: 20px;
-	font-style: italic;
-	padding: 100px;
-}
-
-section.quote .layar-dalam p{
-	display: inline;
-	background: url('../../assets/image/quote-icon.png') no-repeat;
-	padding: 40px;
-}
-
-.tim img{
-	width: 100%;
-	box-shadow: 0px -10px 30px #ccc;
-	border-radius: 5px;
-}
-
-.berita .area{
-	width: 47%;
-	box-shadow: 0px -10px 30px #ccc;
-	border-radius: 5px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-.berita div.area div{
-	width: 50%;
-}
-
-.berita .area .gambar{
-	border-radius: 5px 0px 0px 5px;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	height: 300px;
-}
-
-.berita .area .text article{
-	padding: 40px;
-}
-
-.berita .area .text article h4{
-	margin: 0px;
-}
-
-.berita .area .text article a{
-	color: #333;
-	text-decoration: none;
-	transition: color 0.5s ease;
-}
-
-.berita .area .text article a:hover{
-	color: #ccc;
 }
 
 footer{
@@ -363,7 +235,7 @@ footer .layar-dalam .copyright span{
 	text-transform: uppercase;
 }
 
-footer .layar-dalam .copyright span a{
+footer .layar-dalam span a{
 	text-transform: uppercase;
 	text-decoration: none;
 	color: #fff;
@@ -372,8 +244,72 @@ footer .layar-dalam .copyright span a{
 	font-weight: bold;
 }
 
-footer .layar-dalam .copyright span a:hover{
+footer .layar-dalam span a:hover{
 	color: #007c31;
+}
+
+.foto-donasi{
+	width: 100%;
+}
+
+.Donasi {
+	background-image: url("/assets/image/explore/_111187936_gettyimages-1172550529-1.jpg");
+	background-size: cover;
+	height: 450px;	
+}
+
+.Donasi .harimau {
+	text-align: center;
+	padding-top: 140px;
+}
+
+.harimau{
+	color: #fff;
+}
+
+.Donasi-ot {
+	background-image: url("/assets/image/explore/sumatran-orang-utan-sitting-staring-37131526.jpg");
+	background-size: cover;
+	height: 450px;	
+}
+
+.Donasi-ot .ot {
+	text-align: center;
+	padding-top: 140px;
+}
+
+.ot{
+	color: #fff;
+}
+
+.Donasi-cen {
+	background-image: url("/assets/image/explore/burung-cenderawasih.jpg");
+	background-size: cover;
+	height: 450px;	
+}
+
+.Donasi-cen .cenderawasih {
+	text-align: center;
+	padding-top: 140px;
+}
+
+.cenderawasih{
+	color: #fff;
+}
+
+.Donasi-kom {
+	background-image: url("/assets/image/explore/Komodo.jpg");
+	background-size: cover;
+	height: 450px;	
+}
+
+.Donasi-kom .komodo {
+	text-align: center;
+	padding-top: 140px;
+}
+
+.komodo{
+	color: #fff;
 }
 
 @media screen and (max-width: 991.98px){
@@ -401,6 +337,16 @@ footer .layar-dalam .copyright span a:hover{
 		color: #333;
 	}
 
+	header{
+		height: 30vh;
+	}
+
+	header img{
+		position: relative;
+		height: 100%;
+		width: 100%;
+	}
+
 	header .intro h3{
 		line-height: 50px;
 
@@ -410,82 +356,21 @@ footer .layar-dalam .copyright span a:hover{
 		display: flex;
 	}
 
-	.berita .area{
+	footer .layar-dalam{
 		display: block;
 	}
 
-	.berita div.area div{
+	footer .layar-dalam div{
 		width: 100%;
 	}
 
-	.berita .area .gambar{
-		border-radius: 5px 5px 0px 0px;
-		height: 200px;
+	footer .layar-dalam div h5{
+		margin-top: 30px;
+		margin-bottom: 10px;
 	}
 
-	.dukungan{
-		display: block;
+	.harimau h3{
+		line-height: 30px;
 	}
 
-	.dukungan div{
-		width: 100%;
-		padding-bottom: 30px;
-	}
-
-}
-.foto-donasi{
-	width: 100%;
-}
-
-.Donasi {
-	background-image: url("/assets/image/explore/_111187936_gettyimages-1172550529-1.jpg");
-	background-size: cover;
-	height: 450px;	
-}
-
-.Donasi .harimau {
-	text-align: center;
-	padding-top: 140px;
-}
-.harimau{
-	color: #fff;
-}
-.Donasi-ot {
-	background-image: url("/assets/image/explore/sumatran-orang-utan-sitting-staring-37131526.jpg");
-	background-size: cover;
-	height: 450px;	
-}
-
-.Donasi-ot .ot {
-	text-align: center;
-	padding-top: 140px;
-}
-.ot{
-	color: #fff;
-}
-.Donasi-cen {
-	background-image: url("/assets/image/explore/burung-cenderawasih.jpg");
-	background-size: cover;
-	height: 450px;	
-}
-
-.Donasi-cen .cenderawasih {
-	text-align: center;
-	padding-top: 140px;
-}
-.cenderawasih{
-	color: #fff;
-}
-.Donasi-kom {
-	background-image: url("/assets/image/explore/Komodo.jpg");
-	background-size: cover;
-	height: 450px;	
-}
-
-.Donasi-kom .komodo {
-	text-align: center;
-	padding-top: 140px;
-}
-.komodo{
-	color: #fff;
 }
