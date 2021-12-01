@@ -477,3 +477,16 @@ footer .layar-dalam .copyright span a:hover{
 .cenderawasih{
 	color: #fff;
 }
+.Donasi-kom {
+	background-image: url("/assets/image/explore/Komodo.jpg");
+	background-size: cover;
+	height: 450px;	
+}
+
+.Donasi-kom .komodo {
+	text-align: center;
+	padding-top: 140px;
+}
+.komodo{
+	color: #fff;
+}
