@@ -439,7 +439,7 @@ footer .layar-dalam .copyright span a:hover{
 }
 
 .Donasi {
-	background-image: url("../image/explore/_111187936_gettyimages-1172550529-1.jpg");
+	background-image: url("/assets/image/explore/_111187936_gettyimages-1172550529-1.jpg");
 	background-size: cover;
 	height: 450px;	
 }
@@ -449,5 +449,18 @@ footer .layar-dalam .copyright span a:hover{
 	padding-top: 140px;
 }
 .harimau{
+	color: #fff;
+}
+.Donasi-ot {
+	background-image: url("/assets/image/explore/sumatran-orang-utan-sitting-staring-37131526.jpg");
+	background-size: cover;
+	height: 450px;	
+}
+
+.Donasi-ot .ot {
+	text-align: center;
+	padding-top: 140px;
+}
+.ot{
 	color: #fff;
 }
