@@ -312,6 +312,21 @@ footer .layar-dalam span a:hover{
 	color: #fff;
 }
 
+.Donasi-km {
+	background-image: url("/assets/image/explore/Kucing\ merah-2.jpg");
+	background-size: cover;
+	height: 450px;	
+}
+
+.Donasi-km .kucing-merah {
+	text-align: center;
+	padding-top: 140px;
+}
+
+.kucing-merah{
+	color: #fff;
+}
+
 @media screen and (max-width: 991.98px){
 	.layar-dalam{
 		width: 90%;
