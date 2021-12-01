@@ -7,7 +7,6 @@
 html{
 	margin: 0;
 	padding: 0;
-	/*background-color: #dedede;*/
 	scroll-behavior: smooth;
 }
 
@@ -34,10 +33,6 @@ nav{
 	line-height: 100px;
 	width: 100%;
 	transition: background-color 0.5s ease;
-}
-
-nav.putih{
-	background-color: #fff;
 }
 
 nav .logo{
@@ -115,16 +110,6 @@ header .intro h3{
 }
 
 .tombol{
-/*	background-color: #007c31;
-	height: 40px;
-	line-height: 42px;
-	color: #fff;
-	text-decoration: none;
-	display: inline-block;
-	padding: 0px 20px;
-	font-size: 15px;
-	border-radius: 4px;*/
-
 	display: inline-block;
 	padding: 10px 35px;
 	font-size: 24px;
@@ -222,15 +207,10 @@ nav.putih ul li a{
 	color: #333;
 }
 
-nav .logo img.hitam{
-	display: none;
-}
-
 section.abuabu{
 	background-color: #f5f6f6;
 }
 
-.dukungan,
 .tim,
 .berita{
 	display: flex;
@@ -238,7 +218,6 @@ section.abuabu{
 	justify-content: space-around;
 }
 
-.dukungan h6,
 .tim h6{
 	margin: 0px;
 	margin-top: 20px;
@@ -247,36 +226,9 @@ section.abuabu{
 	font-weight: bold;
 }
 
-.dukungan img{
-	width: 50px;
-}
-
-.dukungan div,
 .tim div{
 	text-align: center;
 	width: 26%;
-}
-
-section#gallery{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	overflow: hidden;
-	padding: 10px 0px;
-}
-
-section#gallery div{
-	padding: 10px;
-}
-
-section#gallery div img{
-	height: 100px;
-	border-radius: 5px;
-}
-
-section#gallery div img:hover{
-	transition: all 0.2s ease-in-out;
-	transform: scale(1.1);
 }
 
 section.quote{
@@ -385,12 +337,9 @@ footer .layar-dalam span a{
 	font-weight: bold;
 }
 
-
 footer .layar-dalam span a:hover{
 	color: #007c31;
 }
-
-
 
 a{
 	text-decoration: none;
@@ -439,18 +388,13 @@ a{
 	font-family: poppins;
 	letter-spacing: 0.5px;
 	padding-right: 8px;
+	text-align: center;
+	align-items: center;
 }
 
 .type span{
 	color: rgba(26, 26, 26, 0.5);
 }
-
-/*.price{
-	color: #333333;
-	font-weight: 600;
-	font-size: 1.1rem;
-	font-family: poppins;
-}*/
 
 .overlay{
 	position: absolute;
@@ -494,6 +438,7 @@ a{
 	visibility: visible;
 	animation: fade 0.5s;
 }
+
 
 @keyframes fade{
 	0%{
@@ -552,16 +497,6 @@ a{
 		height: 200px;
 	}
 
-
-	.dukungan{
-		display: block;
-	}
-
-	.dukungan div{
-		width: 100%;
-		padding-bottom: 30px;
-	}
-
 	.tim{
 		display: block;
 	}
@@ -593,6 +528,5 @@ a{
 		margin-top: 30px;
 		margin-bottom: 10px;
 	}
-
 
 }
