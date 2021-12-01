@@ -375,7 +375,7 @@ footer .layar-dalam .copyright span{
 	text-transform: uppercase;
 }
 
-footer .layar-dalam .copyright span a{
+footer .layar-dalam span a{
 	text-transform: uppercase;
 	text-decoration: none;
 	color: #fff;
@@ -384,7 +384,8 @@ footer .layar-dalam .copyright span a{
 	font-weight: bold;
 }
 
-footer .layar-dalam .copyright span a:hover{
+
+footer .layar-dalam span a:hover{
 	color: #007c31;
 }
 
